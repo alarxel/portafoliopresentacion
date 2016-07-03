@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#texto1").keyup(function () {
+                var value = $(this).val();
+                $("#texto2").val(value);
+            });
+        });
+    </script>
+</head>
+<body>
+<br>
+<br>
+<h2>ejemplo de jquery</h2>
+<br>
+campo 1: <input type="text" id="texto1" value=""/><br><br>
+campo 2: <input type="text" id="texto2" value=""/>
+<br> <br>
+
+</body>
+</html>
